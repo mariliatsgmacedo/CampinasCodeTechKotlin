@@ -11,6 +11,8 @@ fun main(){
 
     val num7: Char = 'K'
     val num8: Boolean = true
+    val palavra: String = "Olá Mundo!"
 
     println(2.5 is Double)
+    println(num8 is Boolean)
 }
