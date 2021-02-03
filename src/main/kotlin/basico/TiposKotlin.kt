@@ -15,4 +15,8 @@ fun main(){
 
     println(2.5 is Double)
     println(num8 is Boolean)
+
+    val num10: Any //Pode ser qualquer coisa
+
+    num1.dec() // dec é decremento.
 }
