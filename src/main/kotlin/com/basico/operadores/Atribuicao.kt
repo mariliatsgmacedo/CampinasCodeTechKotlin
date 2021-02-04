@@ -1,4 +1,4 @@
-package basico.operadores
+package com.basico.operadores
 
 fun main(){
     var a : Int = 7

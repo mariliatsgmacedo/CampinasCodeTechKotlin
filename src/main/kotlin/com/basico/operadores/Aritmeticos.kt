@@ -1,4 +1,4 @@
-package basico.operadores
+package com.basico.operadores
 
 fun main(){
     val(v1, v2, v3, v4) = listOf(3,5,7,9)

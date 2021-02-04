@@ -1,4 +1,4 @@
-package exercicio
+package com.aula.exercicios
 
 
 fun main(){

@@ -1,4 +1,4 @@
-package exercicio
+package com.aula.exercicios
 
 fun main(){
     val(v1,v2,v3,v4,v5) = listOf(2,3,5,8,10)

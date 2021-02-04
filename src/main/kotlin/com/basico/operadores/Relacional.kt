@@ -1,4 +1,4 @@
-package basico.operadores
+package com.basico.operadores
 
 import java.util.*
 
