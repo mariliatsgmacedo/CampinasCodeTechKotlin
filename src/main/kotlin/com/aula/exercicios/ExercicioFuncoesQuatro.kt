@@ -8,6 +8,5 @@ fun main(){
 }
 
 fun calculaArea(raio:Double):Double{
-    val area = 3.14 * (raio * raio)
-    return area
+    return  3.14 * (raio * raio)
 }
