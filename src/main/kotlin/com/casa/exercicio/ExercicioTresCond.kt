@@ -9,12 +9,10 @@ fun main(){
     formHeadTitle()
     println("Enter with liter Sell:")
     val literSell: Double = Scanner(System.`in`).nextDouble()
+
     println("Enter G for Gasoline or A for Alcohol")
     val typeFuel: String = Scanner(System.`in`).nextLine().toUpperCase()
 
-    if(literSell > 0.0 ){
-        formFooterError()
-    } else{
         if (typeFuel == "G"){
             if(literSell <= 20){
                 formHeadCoupon()
@@ -37,8 +35,9 @@ fun main(){
         } else{
             formFooterError()
         }
-    }
+
 }
+
 fun formHeadTitle(){
     println("========================================================")
     println("=================== GAS STATION ========================")

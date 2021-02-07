@@ -16,9 +16,7 @@ fun main(){
 
     val valueToPayment = applyDiscount(totalFruitsKg, totalValue)
 
-    println(" R$%.2f".format(valueToPayment))
-
-
+    println("Value to Pay: R$%.2f".format(valueToPayment))
 
 }
 
